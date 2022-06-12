@@ -3,7 +3,7 @@
 var producto = 'Audifonos Gamer';//Iniciar y asignar valor a variable
 var disponible;
 
-// producto = true; //Reasignamos variable 
+producto = true; //Reasignamos variable 
 disponible = true;
 
 var producto1 = 'computadora',
