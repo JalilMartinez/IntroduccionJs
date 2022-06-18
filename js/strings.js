@@ -23,3 +23,4 @@ console.log(producto2.indexOf('JavaScript'));/* -1 es porque no pudo encontrarlo
 console.log(tweet.includes('JavaScript'));
 console.log(producto2.includes('JavaScript'));/* -1 es porque no pudo encontrarlo*/
 
+
