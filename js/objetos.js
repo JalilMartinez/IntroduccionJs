@@ -18,11 +18,12 @@ console.log(producto.nombreProduccto);
 
 console.log(producto["precio"]);/*otra forma de acceder a los datos del objeto*/
 
+
 //Agregar y eliminar propiedades
-
-
 //agregamos nueva propiedad
+
 producto.imagen = 'imagen.jpg';
+
 //eliminamos propiedades del objeto
 delete producto.nombreProduccto;
 
