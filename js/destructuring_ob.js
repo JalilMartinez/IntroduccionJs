@@ -22,5 +22,6 @@ const nombreProducto = producto.nombreProduccto;
 
 //se puede colocar los que necesites en una sola linea 
 const {precio, nombreProduccto} = producto;
+
 console.log(precio);
 console.log(nombreProducto);
