@@ -33,4 +33,13 @@ numeros.unshift(-10,-20,-30);
 console.table(numeros);
 
 numeros.pop();//elimina ultimo elemento del arreglo
+numeros.shift();//elimima primer valor del arreglo
+numeros.splice(2,1);//elimia elemento determinado del array
 console.table(numeros);
+
+//rest operator o spread operator
+
+const nuevoArreglo = [...meses, 'junio'];//equivalente a push pero sin modificar arreglo original
+const nuevoArreglo1 = ['junio', ...meses];//equivalente a unshift pero sin modificar arreglo original
+console.log(nuevoArreglo);
+console.log(nuevoArreglo1);
