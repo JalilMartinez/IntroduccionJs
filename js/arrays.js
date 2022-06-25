@@ -20,3 +20,17 @@ console.log(meses.length);
 numeros.forEach(function(numero){
     console.log(numero);
 })
+
+//agregar elemento al final de un arreglo
+numeros[5]= 5;
+console.table(numeros);
+
+numeros.push(100,200);
+console.table(numeros);
+
+//agrega al inicio de arreglo
+numeros.unshift(-10,-20,-30);
+console.table(numeros);
+
+numeros.pop();//elimina ultimo elemento del arreglo
+console.table(numeros);
