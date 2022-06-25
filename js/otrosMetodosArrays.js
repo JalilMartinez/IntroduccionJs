@@ -43,3 +43,6 @@ resultado = carrito.filter(function(producto){
     return producto.precio < 400;
 },0)
 
+//con arrow function
+resultado = carrito.filter((producto) => producto.precio < 400,0)
+console.log(resultado);
