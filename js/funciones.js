@@ -44,7 +44,7 @@ sumax(8,6);// aqui es donde van los argumentos
 function sumaw(numero_1 = 0, numero_2 = 0){//se le agregan valores por default a los parametros 
     console.log(numero_1 + numero_2);
 }
-sumaw(20,50);// aqui es donde van los argumentos
+sumaw(20);// aqui es donde van los argumentos
 
 const sumary = function(numero_1, numero_2){
     console.log(numero_1 + numero_2);
