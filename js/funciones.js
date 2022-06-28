@@ -51,3 +51,31 @@ const sumary = function(numero_1, numero_2){
 }
 sumary(5,10);
 
+
+//Funciones que retornan valores
+function sumara(n1, n2 ){
+    return n1 + n2;
+}
+
+var resultado = 0;
+resultado = sumara(2,3);
+
+console.log(resultado);
+
+
+
+let total = 0;
+function carrito(precio){
+    return total += precio;
+}
+function calImpuesto(total){
+    return 1.15*total;
+}
+total = carrito(200);
+total = carrito(400);
+total = carrito(600);
+console.log(total);
+
+total = calImpuesto(total);
+
+console.log(total);
