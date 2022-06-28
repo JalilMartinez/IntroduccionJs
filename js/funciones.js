@@ -29,3 +29,25 @@ sumar2();
 (function() {
     console.log('Esto es una función')
 })();
+
+
+//Funciones con parametros y argumentos
+
+
+function sumax(numero_1, numero_2){
+    console.log(numero_1 + numero_2);
+}
+sumax(20,50);// aqui es donde van los argumentos
+sumax(2);// como solo mandamos un valor el resultado sera nan
+sumax(8,6);// aqui es donde van los argumentos
+
+function sumaw(numero_1 = 0, numero_2 = 0){//se le agregan valores por default a los parametros 
+    console.log(numero_1 + numero_2);
+}
+sumaw(20,50);// aqui es donde van los argumentos
+
+const sumary = function(numero_1, numero_2){
+    console.log(numero_1 + numero_2);
+}
+sumary(5,10);
+
