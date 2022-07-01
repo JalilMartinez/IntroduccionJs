@@ -18,9 +18,11 @@ if (efectivo > carrito){
 
 const rol = 'ADMINISTRADOR';
  if(rol == 'ADMINISTRADOR'){
-    console.log('acceso al sistema');
+    console.log('acceso al sistema, puedes editar mien');
  } else if(rol == 'EDITOR'){
     console.log('Edita pero con cuidado bro');
  }else{
     console.log('No puedes editar nada mano');
  }
+
+ 
