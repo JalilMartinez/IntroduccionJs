@@ -27,7 +27,24 @@ const carrito =[
 for(let i=0; i < carrito.length;i++){
     console.log(carrito[i]);
 }
-//while loops
+//while loops (primero revisa la condicion y despues ejecuta el codigo)
 
+let i=0;
+while(i<5){
+    console.log(`soy ${i}`);
+    i++;
 
-//do while loop
+}
+ i=0;
+while(i<carrito.length){
+    console.log(carrito[i]);
+    i++;
+}
+
+//do while loop(ejecuta el codigo una vez y despues revisa la condicion)
+let a=0;
+
+do{
+ console.log(a)
+ a++
+}while(a<5)
